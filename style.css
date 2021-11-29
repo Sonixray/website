@@ -1,0 +1,78 @@
+.header {
+
+    position:fixed;
+    top : 0;
+    left : 0;
+    font-family : Montserrat;
+    font-size : 24px;
+    color : #FFFFFF;
+    background-color : #120934;
+    width: 100%;
+    min-height: 100px;
+    opacity : 90%;
+
+}
+
+.accueil {
+    position: relative;
+    line-height: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.motivations {
+    position : relative;
+    line-height: 100px;
+    margin-right: 2%;
+
+}
+
+.projets {
+    position : relative;
+    line-height: 100px;
+    margin-right: 2%;
+
+}
+
+.qualites {
+    position : relative;
+    line-height: 100px;
+    margin-right: 2%;
+
+}
+
+.competences {
+    position : relative;
+    line-height: 100px;
+    margin-right: 2%;
+
+}
+
+.contact {
+    position : relative;
+    line-height: 100px;
+    margin-right: 20%;
+
+}
+
+.cv {
+    position : absolute;
+    line-height: 100px;
+    right : 10%;
+    vertical-align: text-top;
+
+}
+
+img.center{
+    vertical-align: middle;
+
+}
+
+
+
+body {
+    background-image:url(Elements/background.png);
+    background-position:top;
+    
+}
