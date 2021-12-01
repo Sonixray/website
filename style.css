@@ -1,3 +1,6 @@
+/*Police Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .header {
 
     position:fixed;
@@ -7,8 +10,8 @@
     font-size : 24px;
     color : #FFFFFF;
     background-color : #120934;
-    width: 100%;
     min-height: 100px;
+    width: 100%;
     opacity : 90%;
 
 }
@@ -70,9 +73,42 @@ img.center{
 }
 
 
-
 body {
-    background-image:url(Elements/background.png);
-    background-position:top;
-    
+    /*background-image:url(Elements/background.png);
+    background-position:top;*/
+    background: linear-gradient(175deg, rgba(46,6,95,1) 10%, rgba(0,212,255,1) 300%);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.texte {
+    align-self: center;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color : white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+.accueil_txt {
+
+    background: rgba(196, 196, 196, 0.2);
+    opacity: 100%;
+    width: 100%;
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+
 }
