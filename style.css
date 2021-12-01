@@ -13,49 +13,49 @@
     min-height: 100px;
     width: 100%;
     opacity : 90%;
+    z-index: 1;
 
 }
 
 .accueil {
     position: relative;
     line-height: 100px;
-    margin-left: 2%;
-    margin-right: 2%;
+    left : 3%;
 
 }
 
 .motivations {
     position : relative;
     line-height: 100px;
-    margin-right: 2%;
+    left : 6%;
 
 }
 
 .projets {
     position : relative;
     line-height: 100px;
-    margin-right: 2%;
+    left : 9%;
 
 }
 
 .qualites {
     position : relative;
     line-height: 100px;
-    margin-right: 2%;
+    left : 12%;
 
 }
 
 .competences {
     position : relative;
     line-height: 100px;
-    margin-right: 2%;
+    left : 15%;
 
 }
 
 .contact {
     position : relative;
     line-height: 100px;
-    margin-right: 20%;
+    left : 18%;
 
 }
 
@@ -85,13 +85,13 @@ body {
 }
 
 .texte {
+    position : relative;
+    top : 300px;
     align-self: center;
-    font-family: Roboto;
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
     line-height: 100px;
-    letter-spacing: 0em;
     text-align: center;
     color : white;
     margin-left: auto;
@@ -108,7 +108,21 @@ body {
 
 }
 
+.motivations_txt {
+
+    position : static
+
+
+}
+
 html {
     font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+
+    margin-top:0%;
+    margin-bottom : 30%
 
 }
