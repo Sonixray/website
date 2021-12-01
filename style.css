@@ -14,85 +14,76 @@
     background-color : #120934;
     min-height: 100px;
     width: 100%;
-    opacity : 90%;
+    opacity : 95%;
     z-index: 1;
 
 }
 
 .accueil {
     position: relative;
-    line-height: 100px;
     left : 3%;
 
 }
 
 .motivations {
     position : relative;
-    line-height: 100px;
     left : 6%;
 
 }
 
 .projets {
     position : relative;
-    line-height: 100px;
     left : 9%;
 
 }
 
 .qualites {
     position : relative;
-    line-height: 100px;
     left : 12%;
 
 }
 
 .competences {
     position : relative;
-    line-height: 100px;
     left : 15%;
 
 }
 
 .contact {
     position : relative;
-    line-height: 100px;
     left : 18%;
 
 }
 
 .cv {
-    position : absolute;
+    position : relative;
     line-height: 100px;
-    right : 10%;
-    vertical-align: text-top;
+    left : 40%;
 
 }
 
 img.center{
+    position : relative;
     vertical-align: middle;
 
 }
 
 
 body {
-    /*background-image:url(Elements/background.png);
-    background-position:top;*/
-    background: linear-gradient(175deg, rgba(46,6,95,1) 10%, rgba(0,212,255,1) 200%);
+    background: linear-gradient(165deg, rgba(46,6,95,1) 8%, rgba(0,212,255,1) 180%);
     background-size: cover;
     background-repeat:no-repeat;
-    height: 100%;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     overflow-x: hidden;
+    height : 100%;
 
 }
 
 .texte {
-    position : relative;
-    top : 300px;
+    margin-top : 400px;
     align-self: center;
     font-size: 30px;
     font-style: normal;
@@ -100,15 +91,12 @@ body {
     line-height: 82px;
     text-align: center;
     color : white;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
 
 }
 
 .accueil_txt {
     background: rgba(196, 196, 196, 0.2);
-    opacity: 100%;
 
 
 }
@@ -145,6 +133,15 @@ body {
     position : static;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 200px;
+
+}
+
+.footer{
+    position : absolute;
+    background-color: black;
+    width: 100%;
+    color: white;
 
 }
 
