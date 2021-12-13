@@ -10,7 +10,7 @@
     display : flex;
     flex-wrap : wrap;
     justify-content: flex-start;
-    gap : 5%;
+    gap : 4%;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size : 24px;
@@ -25,11 +25,39 @@
 
 .item1 {
     margin-left : 4%;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.5s;
+}
+
+.item2 {
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.item3 {
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.item4 {
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.item5 {
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.item6 {
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
 }
 
 .item7 {
     margin-left : 15%;
-
+    border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.5s;
 }
 
 img.center{
@@ -113,7 +141,6 @@ body {
     position : static;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom : 20%;
     padding-top: 15%;
     padding-bottom: 15%;
 
@@ -136,4 +163,33 @@ html {
 a {
     color : white;
     text-decoration: none;
+}
+
+.item1:hover {
+    border-color: white;
+}
+
+
+.item2:hover {
+    border-color: white;
+}
+
+.item3:hover {
+    border-color: white;
+}
+
+.item4:hover {
+    border-color: white;
+}
+
+.item5:hover {
+    border-color: white;
+}
+
+.item6:hover {
+    border-color: white;
+}
+
+.item7:hover {
+    border-color: white;
 }
